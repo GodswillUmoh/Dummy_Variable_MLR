@@ -23,5 +23,5 @@
 > y = b0 + b1x1 + b2x2 + b3x3 + ??? (no value in state column)
 
 ## Steps To Creating Dummy Variables
-+ 1. Check the column to know how many categories you have (in our dataset, we have two; 
++ 1. Check the column to know how many categories you have (in our dataset, we have two; New York, Florida)
 + 2. 
