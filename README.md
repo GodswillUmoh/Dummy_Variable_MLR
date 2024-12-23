@@ -37,3 +37,19 @@
 |131876.9	|99814.71	|362861.36	|New York	|156991.12| ..     | ..     | ..     | 
 
  + 3. Assign numeric values to each category; for the case of two; 0 and 1
+
+|R&D Spend|	Administration|	Marketing Spend|	State	|Profit| Florida | New York|
+|----------|---------------|----------------|-------|-------|--------|--------|
+|165349.2|	136897.8|	471784.1|	New York|	192261.83| 0 | 1 |
+|162597.7	|151377.59	|443898.53	|Florida	|191792.06| 1 | 0 |
+|153441.51|	101145.55|	407934.54|	New York|	191050.39| 0 | 1 |
+|144372.41	|118671.85	|383199.62	|Florida	|182901.99| 1 | 0 |
+|142107.34|	91391.77|	366168.42|	Florida|	166187.94| 1 | 0 |
+|131876.9	|99814.71	|362861.36	|New York	|156991.12| 0 | 1 |
+
+ + 4. Hence, our formula takes the dummy variable (D) for computation
+      
+    y = b0 + b1*x1 + b2*x2 + b3*x3     + b4*D4
+   Note: we include only the Florida column because, if Florida is one, 0 will mean it is New York, hence, no lost of data. (no need to include b5*D5)
+   
+   6. 
