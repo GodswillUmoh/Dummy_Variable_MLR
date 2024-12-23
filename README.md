@@ -64,3 +64,6 @@
 > 
 > Dummy variable occur when you add the two variable into the equation. It means you are duplicating the variable because
 > e.g b4*D1 +  b5*D2, here, D5 = 1-D2, hence causing duplication.
+
+## You cannot have these three elements in a formula at the same time
+### b0 +..... b4D1 + b5D4 (that is the contant and both the dummy variable)
