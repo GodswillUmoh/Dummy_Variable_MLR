@@ -17,6 +17,6 @@
 |131876.9	|99814.71	|362861.36	|New York	|156991.12|
 
 ## Summary of Dataset:
-> Profit is the dependent variable. The investor wants to see if there is a correlation between the expenditure on the predictors (independent) and the outcome (profit).
+> Profit is the dependent variable. The investor wants to see if there is a correlation between the expenditure on the predictors (independent) and the outcome (profit). In the dataset, we see a categorical column, State. The task will be converting it into the dummy variaable.
 > From the table we can form a multiple linear regression formula:
-> y = b0 + b1x1 + 
+> y = b0 + b1x1 + b2x2 + b3x3 + ??? (no value in state column)
