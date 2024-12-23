@@ -61,3 +61,6 @@
 𝑘−1 dummies, the last category is implicitly represented by the absence (i.e., all zeros) of the other dummies.
 
 > If you use k dummy variables instead of k - 1, the regression model will have perfect multicollinearity. This means one of the dummy variables can be predicted perfectly using the others, leading to redundancy and violating the assumption of no perfect multicollinearity in regression models.
+> 
+> Dummy variable occur when you add the two variable into the equation. It means you are duplicating the variable because
+> e.g b4*D1 +  b5*D2, here, D5 = 1-D2, hecnce causing duplication.
