@@ -67,3 +67,7 @@
 
 ## You cannot have these three elements in a formula at the same time
 > ### b0 +..... b4D1 + b5D4 (that is the contant and both the dummy variable)
+>
+
+## General Rule to using dummy variable
+> Whenever you are using the dummy variable, always omit ONE dummy variable irrespective of how many dummy variable. e.g if you have 3, include 2, if 9, include 8 etc
