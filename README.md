@@ -53,4 +53,11 @@
    
    __Note__: we include only the Florida column because, if Florida is one, 0 will mean it is New York, hence, no lost of data. (no need to include b5*D5). Dummy variables work like light switches (On/Off). when you have D as 0, the entire equation swtiches to New York as the b0 coefficient automatically become for the D=0
    
-   6. 
+## Dummy Variable Trap: 
+> The Dummy Variable Trap is a scenario that occurs when dummy variables are included in a regression model in such a way that it leads to multicollinearity, causing issues in the estimation of regression coefficients. It happens when the number of dummy variables used exceeds the necessary amount, creating a perfect correlation between one or more dummy variables.
+
+## Why does the Dummy Variable Trap occur?
+> When you create dummy variables to represent a categorical variable with k categories, you generally only need k - 1 dummy variables. This is because when you have 
+𝑘−1 dummies, the last category is implicitly represented by the absence (i.e., all zeros) of the other dummies.
+
+> If you use k dummy variables instead of k - 1, the regression model will have perfect multicollinearity. This means one of the dummy variables can be predicted perfectly using the others, leading to redundancy and violating the assumption of no perfect multicollinearity in regression models.
