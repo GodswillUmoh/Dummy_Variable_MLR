@@ -50,6 +50,7 @@
  + 4. Hence, our formula takes the dummy variable (D) for computation
       
     y = b0 + b1*x1 + b2*x2 + b3*x3     + b4*D4
-   Note: we include only the Florida column because, if Florida is one, 0 will mean it is New York, hence, no lost of data. (no need to include b5*D5)
+   
+   __Note__: we include only the Florida column because, if Florida is one, 0 will mean it is New York, hence, no lost of data. (no need to include b5*D5)
    
    6. 
