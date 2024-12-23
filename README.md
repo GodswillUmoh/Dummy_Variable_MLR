@@ -22,15 +22,18 @@
 > From the table we can form a multiple linear regression formula:
 > y = b0 + b1x1 + b2x2 + b3x3 + ??? (no value in state column)
 
+
 ## Steps To Creating Dummy Variables
 + 1. Check the column to know how many categories you have (in our dataset, we have two; New York, Florida)
 + 2. For every single category, you create a new column
-|R&D Spend|	Administration|	Marketing Spend|	State	|Profit| Florida | New York
+
+|R&D Spend|	Administration|	Marketing Spend|	State	|Profit| Florida | New York|
 |----------|---------------|----------------|-------|-------|--------|--------|
-|165349.2|	136897.8|	471784.1|	New York|	192261.83| | |
-|162597.7	|151377.59	|443898.53	|Florida	|191792.06| | |
-|153441.51|	101145.55|	407934.54|	New York|	191050.39| | |
-|144372.41	|118671.85	|383199.62	|Florida	|182901.99| | |
-|142107.34|	91391.77|	366168.42|	Florida|	166187.94| | |
-|131876.9	|99814.71	|362861.36	|New York	|156991.12| | |
+|165349.2|	136897.8|	471784.1|	New York|	192261.83| ..     | ..     | ..     |
+|162597.7	|151377.59	|443898.53	|Florida	|191792.06| ..     | ..     | ..     | 
+|153441.51|	101145.55|	407934.54|	New York|	191050.39| ..     | ..     | ..     | 
+|144372.41	|118671.85	|383199.62	|Florida	|182901.99| ..     | ..     | ..     | 
+|142107.34|	91391.77|	366168.42|	Florida|	166187.94| ..     | ..     | ..     | 
+|131876.9	|99814.71	|362861.36	|New York	|156991.12| ..     | ..     | ..     | 
+
   4. 
