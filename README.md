@@ -36,4 +36,4 @@
 |142107.34|	91391.77|	366168.42|	Florida|	166187.94| ..     | ..     | ..     | 
 |131876.9	|99814.71	|362861.36	|New York	|156991.12| ..     | ..     | ..     | 
 
-  4. 
+ + 3. Assign numeric values to each category; for the case of two; 0 and 1
