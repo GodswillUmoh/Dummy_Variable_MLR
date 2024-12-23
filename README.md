@@ -51,6 +51,6 @@
       
     y = b0 + b1*x1 + b2*x2 + b3*x3     + b4*D4
    
-   __Note__: we include only the Florida column because, if Florida is one, 0 will mean it is New York, hence, no lost of data. (no need to include b5*D5)
+   __Note__: we include only the Florida column because, if Florida is one, 0 will mean it is New York, hence, no lost of data. (no need to include b5*D5). Dummy variables work like light switches (On/Off). when you have D as 0, the entire equation swtiches to New York as the b0 coefficient automatically become for the D=0
    
    6. 
